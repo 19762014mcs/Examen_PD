@@ -1,6 +1,6 @@
 
 # Análisis interactivo del *Wine Dataset* (PCA, LDA, t‑SNE, UMAP)
-
+# Marcelo Carmona S- Paula Alvarez V.
 Aplicación **Streamlit** para explorar el dataset de vinos (*Wine*) mediante técnicas de reducción de dimensionalidad (PCA, LDA, t‑SNE y UMAP), además de evaluación supervisada con k‑NN y no supervisada con k‑means. La app incluye visualizaciones interactivas con **Plotly** y utilidades para preprocesamiento (escalado, partición train/test y verificación de valores faltantes).
 
 > Este README se basa en el script `entero.py`, que implementa las secciones, controles y métricas descritas a continuación. 
@@ -53,6 +53,3 @@ umap-learn
 
 ---
 
-## 🙌 Créditos
-- Dataset: `sklearn.datasets.load_wine` (conjunto clásico de clasificación de vinos).
-- Librerías: Streamlit, scikit‑learn, Plotly, Matplotlib, Missingno y UMAP.
